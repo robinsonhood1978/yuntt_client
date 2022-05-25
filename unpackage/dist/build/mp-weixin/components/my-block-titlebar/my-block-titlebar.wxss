@@ -1,0 +1,4 @@
+.titlebar{background-color:var(--bgcolor);padding-top:var(--space);padding-bottom:var(--space)}.titlebar .content{padding:20rpx 20rpx;opacity:var(--txthide)}.titlebar .content .text{padding:0 20rpx;color:var(--txtcolor);font-size:var(--fontsize);font-weight:var(--txtbold)}.titlebar .content .lp,
+.titlebar .content .rp{position:absolute;display:inline-block;height:2rpx;width:56rpx;overflow:hidden;background-color:var(--linecolor);top:50%}.titlebar .content .lp{left:0;margin-left:-56rpx}.titlebar .content .rp{right:0;margin-right:-56rpx}.titlebar .content.square .text{padding:8rpx 20rpx;border:2rpx #ff8000 solid;border-color:var(--linecolor)}.titlebar .content.square .lp,
+.titlebar .content.square .rp{top:46%;height:6rpx}.titlebar .content.leftline .lp,
+.titlebar .content.leftline .rp{display:none}.titlebar .content.leftline{text-align:left}.titlebar .content.leftline .text{border-left:8rpx #ff8000 solid;border-left-color:var(--linecolor)}

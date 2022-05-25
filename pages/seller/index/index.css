@@ -1,0 +1,102 @@
+/**
+ * @link https://www.shopwind.net/
+ * @copyright Copyright (c) 2018 ShopWind Inc. All Rights Reserved.
+ *
+ * This is not free software. Do not use it for commercial purposes. 
+ * If you need commercial operation, please contact us to purchase a license.
+ * @license https://www.shopwind.net/license/
+ * ==========================================================================
+ *
+ * @Id index.css 2019.10.6 $
+ * @author winder
+ */
+.logo {
+	border: 4rpx #fd491b solid;
+}
+.logo,
+.logo image {
+	width: 120rpx;
+	height: 120rpx;
+	border-radius: 100%;
+}
+
+.mynavbar {
+	z-index: 102;
+	background-color: #fc2b34;
+}
+
+.mynavbar .logo,
+.mynavbar .logo image {
+	width: 50rpx;
+	height: 50rpx;
+}
+
+.header {
+	position: relative;
+	background-color: #fc2b34;
+	padding-bottom: 40rpx;
+	/* #ifdef APP-PLUS */
+	padding-top: var(--status-bar-height);
+	/* #endif */
+	overflow: hidden;
+}
+
+.header .plusempty {
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 10rpx;
+	width: 80rpx;
+}
+
+.orders {
+	position: relative;
+	z-index: 11;
+	background-color: #ffffff;
+	/* margin-top: -60rpx; */
+	overflow: hidden;
+}
+
+.orders .item {
+	width: 33.333%;
+}
+
+.orders .item .f-blue {
+	color: #066087;
+}
+
+.tools .item {
+	width: 50%;
+}
+
+.tools .icon {
+	font-size: 100rpx;
+	color: #555555;
+}
+
+.sells .item,
+.mygoods .item {
+	width: 33.333%;
+}
+
+.mygoods .plus {
+	background-color: #ffefef;
+	border-radius: 10rpx;
+	width: 100rpx;
+	height: 72rpx;
+}
+
+.promote .item .label {
+	background-color: #F9F9F9;
+	border-radius: 10rpx;
+}
+
+.school .item {
+	width: 50%;
+}
+
+.school .item .label {
+	display: block;
+	margin: 10rpx;
+	background-color: #F9F9F9;
+	border-radius: 10rpx;
+	;
+}

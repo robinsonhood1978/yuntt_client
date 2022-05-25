@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的充值卡",
+  "navigationBarBackgroundColor": "#ededed",
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

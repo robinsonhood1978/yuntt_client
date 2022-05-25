@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "秒杀设置",
+  "navigationBarBackgroundColor": "#ededed",
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "uni-datetime-picker": "/components/uni-datetime-picker/uni-datetime-picker"
+  }
+}

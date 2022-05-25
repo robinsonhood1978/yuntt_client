@@ -1,0 +1,9 @@
+{
+  "backgroundColor": "#FFFFFF",
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "my-nav-bar": "/components/my-nav-bar/my-nav-bar",
+    "uni-icons": "/components/uni-icons/uni-icons"
+  }
+}

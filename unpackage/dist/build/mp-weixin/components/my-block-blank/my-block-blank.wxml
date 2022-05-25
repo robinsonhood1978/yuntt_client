@@ -1,0 +1,1 @@
+<view><view class="blankbox" style="{{'--bgcolor:'+(options.bgcolor)+';'+('--height:'+(options.height+'px')+';')}}"></view></view>

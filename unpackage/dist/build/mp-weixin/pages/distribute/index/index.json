@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "分销中心",
+  "navigationBarBackgroundColor": "#fc2b34",
+  "navigationBarTextStyle": "white",
+  "backgroundColor": "#fc2b34",
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons"
+  }
+}

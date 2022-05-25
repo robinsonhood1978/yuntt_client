@@ -1,0 +1,65 @@
+/**
+ * @link https://www.shopwind.net/
+ * @copyright Copyright (c) 2018 ShopWind Inc. All Rights Reserved.
+ *
+ * This is not free software. Do not use it for commercial purposes. 
+ * If you need commercial operation, please contact us to purchase a license.
+ * @license https://www.shopwind.net/license/
+ * ==========================================================================
+ *
+ * @Id index.css 2019.10.12 $
+ * @author winder
+ */
+
+.image {
+	width: 140rpx;
+	height: 140rpx;
+	border-radius: 10rpx;
+}
+
+.quantity {
+	border: 0;
+	width: 100rpx;
+	background-color: #F2F2F2;
+	margin: 5rpx 10rpx 0 10rpx;
+	padding: 8rpx 20rpx;
+	border-radius: 30rpx;
+	font-size: 24rpx;
+}
+
+.paybill .badge {
+	background-image: linear-gradient(to right, #ff570a, #fc2b34);
+	border-radius: 50%;
+	color: #FFFFFF;
+	top: 4rpx;
+	left: 50rpx;
+	padding: 6rpx 8rpx;
+	min-width: 28rpx;
+	line-height: 28rpx;
+}
+
+.paybill .mybutton {
+	padding-top: 4rpx;
+	padding-bottom: 4rpx;
+	word-break: break-all;
+	min-width: 80%;
+}
+
+.bottom-placeholder {
+	height: 150rpx;
+}
+
+.cart-empty .title {
+	padding-bottom: 50rpx;
+}
+
+.cart-empty .enter {
+	margin: 0 auto;
+	border-radius: 50rpx;
+	background-image: linear-gradient(to right, #ff570a, #fc2b34);
+	width: 200rpx;
+}
+
+.cart-empty .title .icon {
+	font-size: 200rpx;
+}

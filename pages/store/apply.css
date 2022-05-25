@@ -1,0 +1,74 @@
+/**
+ * @link https://www.shopwind.net/
+ * @copyright Copyright (c) 2018 ShopWind Inc. All Rights Reserved.
+ *
+ * This is not free software. Do not use it for commercial purposes. 
+ * If you need commercial operation, please contact us to purchase a license.
+ * @license https://www.shopwind.net/license/
+ * ==========================================================================
+ *
+ * @Id apply.css 2020.10.27 $
+ * @author winder
+ */
+
+.fixtop {
+	margin-top: -80rpx;
+	z-index: 10;
+}
+
+.applybg {
+	width: 100%;
+	height: 300rpx;
+	background: #fc2b34;
+	overflow: hidden;
+}
+
+.applybg .edge {
+	display: block;
+	width: 1250rpx;
+	height: 1250rpx;
+	background-image: linear-gradient(to top, #fc2b34, #ff7d52);
+	border-radius: 100%;
+	top: 0rpx;
+	right: -700rpx;
+}
+
+
+
+.store-type .iconfont {
+	font-size: 70rpx;
+	background-color: #ffede9;
+	width: 100rpx;
+	height: 100rpx;
+	line-height: 100rpx;
+	text-align: center;
+	border-radius: 100%;
+}
+
+.store-type .iconfont.iconqiye {
+	color: #f60;
+}
+
+.store-type .iconfont.iconmoban {
+	background-color: #e2ecfc;
+	color: #0086B3;
+}
+
+.edgeblue {
+	border: 2rpx #007BD3 dashed;
+	background-color: #f3f8ff;
+	border-radius: 20rpx;
+	color: #0086B3;
+}
+.edgeblue >view {
+	line-height: 60rpx;
+}
+.edgeblue image {
+	border-radius: 20rpx;
+	width: 100%;
+	display:block;
+}
+
+.mybutton {
+	border-radius: 20rpx;
+}

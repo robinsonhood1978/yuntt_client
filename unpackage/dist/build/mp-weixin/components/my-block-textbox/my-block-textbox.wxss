@@ -1,0 +1,1 @@
+.textbox{background-color:var(--bgcolor);padding-left:20rpx;padding-right:20rpx;padding-top:var(--space);padding-bottom:var(--space)}.textbox text{color:var(--txtcolor);font-weight:var(--txtbold);font-size:var(--fontsize)}

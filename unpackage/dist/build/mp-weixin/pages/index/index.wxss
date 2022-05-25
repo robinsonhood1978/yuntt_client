@@ -1,0 +1,1 @@
+page{background-color:initial}.loginplease{background:rgba(0,0,0,.7);border-radius:90rpx;padding:14rpx 16rpx 14rpx 40rpx;margin:0 40rpx}.loginplease .mybutton{background-image:linear-gradient(90deg,#f12d8c,#f13257);padding:10rpx 20rpx}.bottom-placeholder{height:120rpx}

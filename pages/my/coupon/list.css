@@ -1,0 +1,43 @@
+/**
+ * @link https://www.shopwind.net/
+ * @copyright Copyright (c) 2018 ShopWind Inc. All Rights Reserved.
+ *
+ * This is not free software. Do not use it for commercial purposes. 
+ * If you need commercial operation, please contact us to purchase a license.
+ * @license https://www.shopwind.net/license/
+ * ==========================================================================
+ *
+ * @Id list.css 2019.10.29 $
+ * @author winder
+ */
+.store {
+	border-radius: 20rpx 0 0 20rpx;
+}
+
+.store .logo,
+.store .logo image {
+	width: 120rpx;
+	height: 120rpx;
+	border-radius: 100%;
+
+}
+
+.wraper {
+	background-color: #F0AD4E;
+	border-radius: 0 20rpx 20rpx 0;
+}
+
+.wraper .button {
+	color: #F0AD4E;
+	background-color: #FFFFFF;
+	border-radius: 30rpx;
+}
+
+.wraper.invalid {
+	background-color: #CCCCCC;
+}
+
+.wraper.invalid .button {
+	color: #CCCCCC;
+	background-color: #F1F1F1;
+}

@@ -1,0 +1,66 @@
+/**
+ * @link https://www.shopwind.net/
+ * @copyright Copyright (c) 2018 ShopWind Inc. All Rights Reserved.
+ *
+ * This is not free software. Do not use it for commercial purposes. 
+ * If you need commercial operation, please contact us to purchase a license.
+ * @license https://www.shopwind.net/license/
+ * ==========================================================================
+ *
+ * @Id goods.css 2019.10.6 $
+ * @author winder
+ */
+
+.search-box {
+	/* #ifdef APP-PLUS */
+	padding-top: var(--status-bar-height);
+	/* #endif */
+	background-color: #F4F4F4;
+	width: 100%;
+}
+
+.search-box .wraper {
+	background: rgba(0, 0, 0, 0.05);
+	border-radius: 40rpx;
+	height: 70rpx;
+	line-height: 70rpx;
+}
+
+.search-box .wraper .input {
+	padding-top: 0rpx;
+	padding-left: 5rpx;
+}
+
+.navtab {
+	background-color: #F4F4F4;
+	height: 74rpx;
+	overflow: hidden;
+}
+
+.navtab .item {
+	width: 25%;
+	line-height: 36rpx;
+}
+
+.navtab .item.current text {
+	display: inline-block;
+	height: 60rpx;
+	border-bottom: #fc2b34 4rpx solid;
+	color: #fc2b34;
+	font-weight: bold;
+}
+
+
+/**
+ * 橱窗商品列表
+ */
+.gallery {
+	padding-top: 200rpx;
+	/* #ifdef APP-PLUS */
+	padding-top: calc(var(--status-bar-height) + 200rpx);
+	/* #endif */
+}
+
+.empty-icons {
+	padding-top: 400rpx;
+}

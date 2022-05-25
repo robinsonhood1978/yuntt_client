@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "分销比率设置",
+  "navigationBarBackgroundColor": "#ededed",
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons"
+  }
+}

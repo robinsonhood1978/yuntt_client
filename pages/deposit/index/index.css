@@ -1,0 +1,46 @@
+/**
+ * @link https://www.shopwind.net/
+ * @copyright Copyright (c) 2018 ShopWind Inc. All Rights Reserved.
+ *
+ * This is not free software. Do not use it for commercial purposes. 
+ * If you need commercial operation, please contact us to purchase a license.
+ * @license https://www.shopwind.net/license/
+ * ==========================================================================
+ *
+ * @Id index.css 2019.10.22 $
+ * @author winder
+ */
+
+.deposit {
+	background-image: linear-gradient(to right, #29ae67, #2aae67);
+}
+.deposit .amount {
+	font-size: 80rpx;
+	padding-top: 30rpx;
+}
+
+.tools .iconfont {
+	font-size: 80rpx;
+}
+
+.buttons {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #F1F1F1;
+}
+
+.buttons .item {
+	width: 50%;
+	background-image: linear-gradient(to right, #69c6ff, #55aaff);
+	font-size: 40rpx;
+	border-radius: 60rpx 0 0 60rpx;
+}
+.buttons .item.recharge{
+	background-image: linear-gradient(to right, #ff570a, #fc2b34);
+	border-radius: 0 60rpx 60rpx 0;
+}
+.fixed-space {
+	height: 130rpx;
+}

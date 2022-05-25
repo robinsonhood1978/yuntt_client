@@ -1,0 +1,62 @@
+/**
+ * @link https://www.shopwind.net/
+ * @copyright Copyright (c) 2018 ShopWind Inc. All Rights Reserved.
+ *
+ * This is not free software. Do not use it for commercial purposes. 
+ * If you need commercial operation, please contact us to purchase a license.
+ * @license https://www.shopwind.net/license/
+ * ==========================================================================
+ *
+ * @Id list.css 2019.10.20 $
+ * @author winder
+ */
+
+/**
+ * 选项卡
+ */
+.navtab {
+	background-color: #F4F4F4;
+	padding-top: 16rpx;
+	height: 74rpx;
+	overflow: hidden;
+}
+
+.navtab .item {
+	width: 20%;
+	line-height: 36rpx;
+}
+
+.navtab .item.current text {
+	display: inline-block;
+	height: 60rpx;
+	border-bottom: #fc2b34 4rpx solid;
+	color: #fc2b34;
+	font-weight: bold;
+}
+
+.order-list {
+	margin-top: 110rpx;
+}
+
+.order-list .items image {
+	width: 140rpx;
+	height: 140rpx;
+	border-radius: 10rpx;
+}
+
+.order-list .consignee {
+	background-color: #f8f0ee;
+	color: #fc2b34;
+	border-radius: 10rpx;
+}
+
+.mybutton {
+	padding-top: 14rpx;
+	padding-bottom: 14rpx;
+}
+
+.mybutton.b-gray {
+	background-image: none;
+	background-color: #E9E9E9;
+	color: #333333;
+}

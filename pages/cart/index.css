@@ -1,0 +1,95 @@
+/**
+ * @link https://www.shopwind.net/
+ * @copyright Copyright (c) 2018 ShopWind Inc. All Rights Reserved.
+ *
+ * This is not free software. Do not use it for commercial purposes. 
+ * If you need commercial operation, please contact us to purchase a license.
+ * @license https://www.shopwind.net/license/
+ * ==========================================================================
+ *
+ * @Id index.css 2019.10.12 $
+ * @author winder
+ */
+
+.radio {
+	width: 40rpx;
+	height: 40rpx;
+	transform: scale(0.9)
+}
+
+.image {
+	width: 140rpx;
+	height: 140rpx;
+}
+
+.quantity {
+	border: 0;
+	width: 100rpx;
+	background-color: #F2F2F2;
+	margin: 5rpx 10rpx 0 10rpx;
+	padding: 8rpx 20rpx;
+	border-radius: 30rpx;
+	font-size: 24rpx;
+}
+
+.remove {
+	width: 30rpx;
+	height: 120rpx;
+	right: -100rpx;
+	top: 0rpx;
+	background-color: #ff0000;
+}
+
+.paybill {
+	padding: 6rpx 0;
+	background-color: #fafafa;
+	border-bottom: 1px #f2f2f2 solid;
+	bottom: calc(var(--window-bottom) + 100rpx);
+}
+
+.paybill .checkall {
+	width: 200rpx;
+}
+
+.paybill .buyedge {
+	border-radius: 50%;
+	background-color: #fafafa;
+	width: 130rpx;
+	height: 130rpx;
+	position: absolute;
+	right: 20rpx;
+	top: -30rpx;
+	margin: 0 auto;
+}
+
+.paybill .buyedge .buy {
+	background-color: #fc2b34;
+	width: 90rpx;
+	height: 90rpx;
+	line-height: 90rpx;
+	border-radius: 50%;
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 10rpx;
+	font-size: 38rpx;
+	margin: 20rpx auto 0;
+}
+
+.fixed-space {
+	padding-bottom: 160rpx;
+}
+
+.cart-empty .title {
+	padding-bottom: 50rpx;
+}
+
+.cart-empty .enter {
+	margin: 0 auto;
+	border-radius: 50rpx;
+	background-image: linear-gradient(to right, #ff570a, #fc2b34);
+	width: 200rpx;
+}
+
+.cart-empty .title .icon {
+	font-size: 200rpx;
+}

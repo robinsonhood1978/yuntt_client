@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "申请团长",
+  "navigationBarBackgroundColor": "#ededed",
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons"
+  }
+}

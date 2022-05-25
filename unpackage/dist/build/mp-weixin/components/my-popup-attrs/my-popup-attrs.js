@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/my-popup-attrs/my-popup-attrs"],{"244b":function(t,n,e){"use strict";e.r(n);var o=e("7e92"),c=e("d0c5");for(var u in c)"default"!==u&&function(t){e.d(n,t,(function(){return c[t]}))}(u);e("66a2");var i,r=e("f0c5"),a=Object(r["a"])(c["default"],o["b"],o["c"],!1,null,"d73e651c",null,!1,o["a"],i);n["default"]=a.exports},"2aa5":function(t,n,e){},"35c1":function(t,n,e){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var o={name:"uniPopupDialog",props:{title:{type:String,default:"修改属性"},data:{type:Array,default:function(){return[]}}},data:function(){return{category:{}}},inject:["popup"],created:function(){this.popup.mkclick=!0,this.category=this.data},methods:{confirm:function(){var t=this;console.log(this.category),this.$emit("confirm",(function(){t.popup.close()}),this.category)},close:function(){var t=this;this.beforeClose?this.$emit("close",(function(){t.popup.close()})):this.popup.close()}}};n.default=o},"66a2":function(t,n,e){"use strict";var o=e("2aa5"),c=e.n(o);c.a},"7e92":function(t,n,e){"use strict";e.d(n,"b",(function(){return c})),e.d(n,"c",(function(){return u})),e.d(n,"a",(function(){return o}));var o={uniIcons:function(){return Promise.all([e.e("common/vendor"),e.e("components/uni-icons/uni-icons")]).then(e.bind(null,"db11"))}},c=function(){var t=this,n=t.$createElement;t._self._c},u=[]},d0c5:function(t,n,e){"use strict";e.r(n);var o=e("35c1"),c=e.n(o);for(var u in o)"default"!==u&&function(t){e.d(n,t,(function(){return o[t]}))}(u);n["default"]=c.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/my-popup-attrs/my-popup-attrs-create-component',
+    {
+        'components/my-popup-attrs/my-popup-attrs-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("244b"))
+        })
+    },
+    [['components/my-popup-attrs/my-popup-attrs-create-component']]
+]);

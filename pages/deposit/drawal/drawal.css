@@ -1,0 +1,32 @@
+/**
+ * @link https://www.shopwind.net/
+ * @copyright Copyright (c) 2018 ShopWind Inc. All Rights Reserved.
+ *
+ * This is not free software. Do not use it for commercial purposes. 
+ * If you need commercial operation, please contact us to purchase a license.
+ * @license https://www.shopwind.net/license/
+ * ==========================================================================
+ *
+ * @Id drawal.css 2019.11.2 $
+ * @author winder
+ */
+.wraper {
+	box-shadow: 0rpx 0rpx 30rpx 0rpx #e8e8e8;
+}
+
+.bank {
+	padding: 60rpx;
+	background-color: #f6f6f7;
+}
+.money text {
+	font-size: 60rpx;
+}
+.money input {
+	font-size: 80rpx;
+	height: 80rpx;
+}
+
+.mybutton {
+	border-radius: 16rpx;
+	background-image: linear-gradient(to right, #29ae67, #2aae67);
+}

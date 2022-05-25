@@ -1,0 +1,1 @@
+.horzline{padding-top:var(--space);padding-bottom:var(--space);padding-left:var(--padding);padding-right:var(--padding)}.horzline .content{border-top-width:2rpx;border-top-style:var(--line);border-top-color:var(--color)}

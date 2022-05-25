@@ -1,0 +1,40 @@
+/**
+ * @link https://www.shopwind.net/
+ * @copyright Copyright (c) 2018 ShopWind Inc. All Rights Reserved.
+ *
+ * This is not free software. Do not use it for commercial purposes. 
+ * If you need commercial operation, please contact us to purchase a license.
+ * @license https://www.shopwind.net/license/
+ * ==========================================================================
+ *
+ * @Id view.css 2019.10.20 $
+ * @author winder
+ */
+
+.order-status {
+	background-image: linear-gradient(to right, #ff570a, #fc2b34);
+	height: 260rpx;
+	font-size: 36rpx;
+}
+
+.order-detail .item image {
+	width: 140rpx;
+	height: 140rpx;
+}
+.order-seller {
+	border-top: 2rpx #EEEEEE solid;
+}
+.order-seller .flex-item {
+	width: 50%;
+}
+.shipping .ensure {
+	color: #dab48d;
+}
+.fixed-bottom .btn-pay {
+	background-image: linear-gradient(to right, #dcb36b, #d68e3b);
+	padding: 20rpx 0rpx;
+	border-radius: 60rpx;
+}
+.fixed-space {
+	padding-bottom: 120rpx;
+}

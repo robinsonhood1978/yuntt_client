@@ -1,0 +1,1 @@
+.mainnav{margin-top:var(--space);margin-bottom:var(--space)}.mainnav .wraper{background-color:var(--bgcolor)}.mainnav .square{border-radius:0;margin:0}.mainnav .item{width:25%}.mainnav .col3 .item{width:33.333%}.mainnav .col5 .item{width:20%}.mainnav .item image{width:92rpx;height:92rpx;margin:0 auto}.mainnav .item text{display:inline-block;margin-top:10rpx;color:var(--txtcolor)}

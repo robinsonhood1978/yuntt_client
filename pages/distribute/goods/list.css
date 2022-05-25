@@ -1,0 +1,69 @@
+/**
+ * @link https://www.shopwind.net/
+ * @copyright Copyright (c) 2018 ShopWind Inc. All Rights Reserved.
+ *
+ * This is not free software. Do not use it for commercial purposes. 
+ * If you need commercial operation, please contact us to purchase a license.
+ * @license https://www.shopwind.net/license/
+ * ==========================================================================
+ *
+ * @Id list.css 2020.12.27 $
+ * @author winder
+ */
+
+.search-box {
+	background-color: #F4F4F4;
+	width: 100%;
+}
+
+.search-box .wraper {
+	background: rgba(0, 0, 0, 0.05);
+	border-radius: 40rpx;
+	height: 70rpx;
+}
+
+.search-box .wraper .input {
+	padding-top: 5rpx;
+	padding-left: 5rpx;
+}
+
+/**
+ * 选项卡
+ */
+
+.navtab {
+	background-color: #F4F4F4;
+	height: 74rpx;
+	overflow: hidden;
+}
+
+.navtab .item {
+	width: 50%;
+	line-height: 36rpx;
+}
+
+.navtab .item.current text {
+	display: inline-block;
+	height: 60rpx;
+	border-bottom: #fc2b34 4rpx solid;
+	color: #fc2b34;
+	font-weight: bold;
+}
+
+/**
+ * 橱窗商品列表（重写一栏布局）
+ */
+.gallery {
+	padding-top: 192rpx;
+}
+.gallery .item {
+	width: 100%;
+}
+.gallery .item image {
+	width: 200rpx;
+	height: 200rpx;
+	border-radius: 10rpx;
+}
+.gallery .item .mybutton {
+	padding: 6rpx 16rpx;
+}

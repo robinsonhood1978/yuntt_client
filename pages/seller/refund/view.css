@@ -1,0 +1,57 @@
+/**
+ * @link https://www.shopwind.net/
+ * @copyright Copyright (c) 2018 ShopWind Inc. All Rights Reserved.
+ *
+ * This is not free software. Do not use it for commercial purposes. 
+ * If you need commercial operation, please contact us to purchase a license.
+ * @license https://www.shopwind.net/license/
+ * ==========================================================================
+ *
+ * @Id view.js 2020.12.9 $
+ * @author winder
+ */
+
+.order-status {
+	background-image: linear-gradient(to right, #ff570a, #fc2b34);
+	color: #FFFFFF;
+}
+
+.order-status .mybutton {
+	border: 1px #fff solid;
+	border-radius: 6rpx;
+	width: 150rpx;
+	height: 64rpx;
+	line-height: 64rpx;
+	padding: 0;
+	text-align: center;
+	background: none;
+}
+
+.operate .mybutton {
+	background: #fff;
+	border: 2rpx #09F solid;
+	color: #09F;
+	width: calc(50% - 22rpx);
+	margin-left: 20rpx;
+	margin-right: 20rpx;
+	padding-top: 10rpx;
+	padding-bottom: 10rpx;
+}
+
+.operate .mybutton.yellow {
+	border: 2rpx #F29D18 solid;
+	color: #F29D18;
+}
+
+.operate .mybutton.gray {
+	border: 2rpx #666 solid;
+	color: #666;
+}
+
+.fixed-bottom {
+	background-color: #F0AD4E;
+}
+
+.fixed-space {
+	padding-bottom: 90rpx;
+}

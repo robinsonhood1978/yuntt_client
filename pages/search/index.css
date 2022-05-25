@@ -1,0 +1,44 @@
+/**
+ * @link https://www.shopwind.net/
+ * @copyright Copyright (c) 2018 ShopWind Inc. All Rights Reserved.
+ *
+ * This is not free software. Do not use it for commercial purposes. 
+ * If you need commercial operation, please contact us to purchase a license.
+ * @license https://www.shopwind.net/license/
+ * ==========================================================================
+ *
+ * @Id index.css 2019.10.6 $
+ * @author winder
+ */
+
+.search-box {
+	/* #ifdef APP-PLUS */
+	padding-top: var(--status-bar-height);
+	/* #endif */
+	background-color: #F4F4F4;
+	width: 100%;
+}
+
+.search-box .wraper {
+	background: rgba(0, 0, 0, 0.05);
+	border-radius: 40rpx;
+	height: 70rpx;
+	line-height: 70rpx;
+}
+
+.search-box .wraper .input {
+	padding-top: 8rpx;
+	padding-left: 5rpx;
+}
+
+.keywords-list {
+	padding-top: 120rpx;
+	/* #ifdef APP-PLUS */
+	padding-top: calc(var(--status-bar-height) + 120rpx);
+	/* #endif */
+}
+
+.keywords-list .item {
+	padding: 8rpx 40rpx;
+	border-radius: 10rpx;
+}

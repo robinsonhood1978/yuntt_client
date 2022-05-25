@@ -1,0 +1,243 @@
+{
+	"pages": [{
+			"path": "pages/seller/index/index",
+			"style": {
+				"navigationBarTitleText": "ShopWind商家端",
+				"navigationBarTextStyle": "white",
+				"mp-weixin": {
+					"backgroundColor": "#fc2b34"
+				},
+				"mp-toutiao": {
+					"backgroundColor": "#fc2b34"
+				},
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		}, {
+			"path": "pages/seller/login/login",
+			"style": {
+				"backgroundColor": "#FFFFFF",
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleView": false //不启用系统导航
+				},
+				"h5": {
+					"navigationBarTitleText": "商家登录"
+				}
+			}
+		}, {
+			"path": "pages/seller/module/index",
+			"style": {
+				"navigationBarTitleText": "全部功能",
+				"navigationBarBackgroundColor": "#ededed"
+			}
+		},
+		{
+			"path": "pages/seller/store/setting",
+			"style": {
+				"navigationBarTitleText": "店铺设置",
+				"navigationBarBackgroundColor": "#ededed"
+			}
+		},
+		{
+			"path": "pages/seller/order/list",
+			"style": {
+				"navigationBarTitleText": "订单管理"
+			}
+		}, {
+			"path": "pages/seller/order/view",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"navigationBarBackgroundColor": "#ededed"
+			}
+		}, {
+			"path": "pages/seller/refund/list",
+			"style": {
+				"navigationBarTitleText": "退款管理"
+			}
+		}, {
+			"path": "pages/seller/refund/view",
+			"style": {
+				"navigationBarTitleText": "退款详情",
+				"navigationBarBackgroundColor": "#ededed"
+			}
+		}, {
+			"path": "pages/seller/refund/refuse",
+			"style": {
+				"navigationBarTitleText": "拒绝退款",
+				"navigationBarBackgroundColor": "#ededed"
+			}
+		}, {
+			"path": "pages/seller/goods/list",
+			"style": {
+				"navigationBarTitleText": "我的商品"
+			}
+		}, {
+			"path": "pages/seller/goods/build",
+			"style": {
+				"navigationBarTitleText": "商品发布",
+				"navigationBarBackgroundColor": "#ededed"
+			}
+		}, {
+			"path": "pages/seller/goods/spec",
+			"style": {
+				"navigationBarTitleText": "添加规格",
+				"navigationBarBackgroundColor": "#ededed"
+			}
+		}, {
+			"path": "pages/seller/store/location",
+			"style": {
+				"navigationBarTitleText": "店铺位置",
+				"navigationBarBackgroundColor": "#ededed"
+			}
+		}, {
+			"path": "pages/seller/store/build",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		}, {
+			"path": "pages/seller/coupon/list",
+			"style": {
+				"navigationBarTitleText": "优惠券",
+				"navigationBarBackgroundColor": "#ededed"
+			}
+		}, {
+			"path": "pages/seller/coupon/build",
+			"style": {
+				"navigationBarTitleText": "创建优惠券",
+				"navigationBarBackgroundColor": "#ededed"
+			}
+		}, {
+			"path": "pages/seller/limitbuy/list",
+			"style": {
+				"navigationBarTitleText": "限时秒杀"
+			}
+		}, {
+			"path": "pages/seller/limitbuy/build",
+			"style": {
+				"navigationBarTitleText": "秒杀设置",
+				"navigationBarBackgroundColor": "#ededed"
+			}
+		}, {
+			"path": "pages/seller/fullprefer/build",
+			"style": {
+				"navigationBarTitleText": "满优惠设置",
+				"navigationBarBackgroundColor": "#ededed"
+			}
+		}, {
+			"path": "pages/seller/fullfree/build",
+			"style": {
+				"navigationBarTitleText": "满包邮设置",
+				"navigationBarBackgroundColor": "#ededed"
+			}
+		}, {
+			"path": "pages/seller/teambuy/list",
+			"style": {
+				"navigationBarTitleText": "拼团商品"
+			}
+		}, {
+			"path": "pages/seller/teambuy/build",
+			"style": {
+				"navigationBarTitleText": "拼团设置",
+				"navigationBarBackgroundColor": "#ededed"
+			}
+		}, {
+			"path": "pages/seller/distribute/list",
+			"style": {
+				"navigationBarTitleText": "分销商品"
+			}
+		}, {
+			"path": "pages/seller/distribute/build",
+			"style": {
+				"navigationBarTitleText": "分销比率设置",
+				"navigationBarBackgroundColor": "#ededed"
+			}
+		}, {
+			"path": "pages/accord/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏  
+				}
+			}
+		}, {
+			"path": "pages/article/view",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/article/webview",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}, {
+			"path": "pages/popup/goods",
+			"style": {
+				"navigationBarTitleText": "选择商品",
+				"navigationBarBackgroundColor": "#ededed"
+			}
+		}, {
+			"path": "pages/order/logistic",
+			"style": {
+				"navigationBarTitleText": "查看物流",
+				"navigationBarBackgroundColor": "#ededed"
+			}
+		}, {
+			"path": "pages/refund/logs",
+			"style": {
+				"navigationBarTitleText": "协商记录",
+				"navigationBarBackgroundColor": "#ededed"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#F4F4F4",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "ShopWind商家端",
+		"background": "#ededed",
+		"backgroundColor": "#ededed",
+		"enablePullDownRefresh": false,
+		"app-plus": {
+			"bounce": "none" // 将回弹属性关掉
+		},
+		"h5": {
+			"titleNView": false
+		}
+	},
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "#fc2b34",
+		"borderStyle": "white",
+		"backgroundColor": "#FFFFFF",
+		"position": "bottom",
+		"list": [{
+				"pagePath": "pages/seller/index/index",
+				"iconPath": "static/images/home.png",
+				"selectedIconPath": "static/images/home-hover.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/seller/module/index",
+				"iconPath": "static/images/module.png",
+				"selectedIconPath": "static/images/gcategory-hover.png",
+				"text": "功能"
+			},
+			{
+				"pagePath": "pages/seller/store/setting",
+				"iconPath": "static/images/setting.png",
+				"selectedIconPath": "static/images/setting-hover.png",
+				"text": "设置"
+			}
+		]
+	}
+}

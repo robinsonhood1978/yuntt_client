@@ -1,0 +1,41 @@
+/**
+ * @link https://www.shopwind.net/
+ * @copyright Copyright (c) 2018 ShopWind Inc. All Rights Reserved.
+ *
+ * This is not free software. Do not use it for commercial purposes. 
+ * If you need commercial operation, please contact us to purchase a license.
+ * @license https://www.shopwind.net/license/
+ * ==========================================================================
+ *
+ * @Id pay.css 2019.10.18 $
+ * @author winder
+ */
+
+.paymoney {
+	background-image: linear-gradient(to right, #ff570a, #fc2b34);
+	color: #FFFFFF;
+}
+.paymoney .amount {
+	font-size: 80rpx;
+	padding-bottom: 50rpx;
+}
+
+.mybutton {
+	background-image: linear-gradient(to right, #dcb36b, #d68e3b);
+	border-radius: 20rpx;
+}
+.payments .iconfont {
+	font-size: 80rpx;
+	color: #F0AD4E;
+}
+.iconfont.deposit::after {
+	content: '\e6ba';
+}
+.iconfont.alipay::after,.iconfont.alipay_app::after, .iconfont.alipay_wap::after {
+	color: #1677ff;
+	content: '\e992';
+}
+.iconfont.wxpay::after,.iconfont.wxapppay::after,.iconfont.wxmppay::after,.iconfont.wxh5pay::after {
+	color: #04BE02;
+	content: '\e634';
+}

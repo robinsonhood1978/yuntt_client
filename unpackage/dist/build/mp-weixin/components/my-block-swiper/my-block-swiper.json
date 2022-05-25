@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "my-swiper-indicator": "/components/my-swiper-indicator/my-swiper-indicator"
+  }
+}

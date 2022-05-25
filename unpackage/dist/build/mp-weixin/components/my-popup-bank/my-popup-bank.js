@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/my-popup-bank/my-popup-bank"],{1328:function(n,t,e){"use strict";e.d(t,"b",(function(){return u})),e.d(t,"c",(function(){return i})),e.d(t,"a",(function(){return o}));var o={uniIcons:function(){return Promise.all([e.e("common/vendor"),e.e("components/uni-icons/uni-icons")]).then(e.bind(null,"db11"))}},u=function(){var n=this,t=n.$createElement;n._self._c},i=[]},6976:function(n,t,e){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var o={name:"uniPopupDialog",props:{title:{type:String,default:"到账银行卡"},desc:{type:String,default:"到账时间以各银行处理为准"},beforeClose:{type:Boolean,default:!1},banks:{type:Array,default:function(){return[]}},showAdd:{type:Boolean,default:!0},selected:{type:Object,default:function(){return{}}}},data:function(){return{bank:{}}},inject:["popup"],created:function(){this.popup.mkclick=!0},methods:{confirm:function(n,t){var e=this;this.bank=t,this.$emit("confirm",(function(){e.popup.close()}),this.bank)},close:function(){var n=this;this.beforeClose?this.$emit("close",(function(){n.popup.close()})):this.popup.close()}}};t.default=o},ebf7:function(n,t,e){"use strict";e.r(t);var o=e("6976"),u=e.n(o);for(var i in o)"default"!==i&&function(n){e.d(t,n,(function(){return o[n]}))}(i);t["default"]=u.a},f0db:function(n,t,e){"use strict";e.r(t);var o=e("1328"),u=e("ebf7");for(var i in u)"default"!==i&&function(n){e.d(t,n,(function(){return u[n]}))}(i);var c,r=e("f0c5"),a=Object(r["a"])(u["default"],o["b"],o["c"],!1,null,"4c464763",null,!1,o["a"],c);t["default"]=a.exports}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/my-popup-bank/my-popup-bank-create-component',
+    {
+        'components/my-popup-bank/my-popup-bank-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("f0db"))
+        })
+    },
+    [['components/my-popup-bank/my-popup-bank-create-component']]
+]);

@@ -1,0 +1,1 @@
+<view class="pd10 ml10 mr10 mt10 mb10"><view><mp-html class="detail-info" vue-id="0b4ff462-1" content="{{article.description}}" bind:__l="__l"></mp-html></view></view>

@@ -1,0 +1,60 @@
+/**
+ * @link https://www.shopwind.net/
+ * @copyright Copyright (c) 2018 ShopWind Inc. All Rights Reserved.
+ *
+ * This is not free software. Do not use it for commercial purposes. 
+ * If you need commercial operation, please contact us to purchase a license.
+ * @license https://www.shopwind.net/license/
+ * ==========================================================================
+ *
+ * @Id index.css 2019.10.22 $
+ * @author winder
+ */
+
+.profits {
+	padding: 20rpx 10rpx 70rpx 10rpx;
+	background-image: linear-gradient(to bottom, #fc2b34, #E4393C);
+}
+	
+.profits .mybutton {
+	background: none;
+	border: 2rpx #FFFFFF solid;
+	border-radius: 10rpx;
+	padding: 0rpx;
+	line-height: 70rpx;
+	height: 70rpx;
+}
+
+.dayprofits {
+	background-image: linear-gradient(to right, #fff8c1, #fff8c1);
+}
+
+.teams {
+	background-color: #fff9e6;
+	border-radius: 50%;
+	line-height:80rpx;
+	width: 80rpx;
+	height: 80rpx;
+	padding: 20rpx;
+}
+.teams .iconfont {
+	color: #ffc619;
+	font-size: 80rpx;
+}
+
+.gallery .item {
+	width: 50%;
+}
+.gallery .item .iconfont {
+	font-size: 80rpx;
+}
+
+.gallery .badge {
+	background-image: linear-gradient(to right, #ff570a, #fc2b34);
+	border-radius: 50%;
+	top: 20rpx;
+	left: 200rpx;
+	padding: 10rpx 10rpx;
+	min-width: 26rpx;
+	line-height: 26rpx;
+}

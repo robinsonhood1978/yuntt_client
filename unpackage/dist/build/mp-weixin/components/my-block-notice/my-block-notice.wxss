@@ -1,0 +1,1 @@
+.notice{width:100%;margin-top:var(--space);margin-bottom:var(--space)}.notice .wraper{background-color:var(--bgcolor);padding:30rpx 20rpx;border-radius:10rpx}.notice image{height:32rpx;display:block}.notice .content{border-left:1rpx #f1f1f1 solid}.notice .style2 image{height:38rpx}.notice .swiper{height:38rpx;line-height:38rpx}

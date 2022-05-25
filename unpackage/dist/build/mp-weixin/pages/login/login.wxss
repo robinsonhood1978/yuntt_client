@@ -1,0 +1,4 @@
+.logo.data-v-7210d380{width:160rpx;height:160rpx;margin:0 auto;border-radius:30rpx}.form.data-v-7210d380{padding:40rpx 60rpx 60rpx 60rpx}.form .title.data-v-7210d380{font-size:50rpx;font-weight:500}.form .item.data-v-7210d380{margin-top:24rpx;border-bottom:1rpx #dedede solid}.form .item input.data-v-7210d380,
+.form .item .placeholder.data-v-7210d380{font-size:36rpx}.form .item .placeholder.data-v-7210d380{color:#b4b4b4}.wxlogin.data-v-7210d380,
+.qqlogin.data-v-7210d380,
+.applelogin.data-v-7210d380{width:90rpx;height:90rpx;line-height:90rpx;border-radius:50%;margin:0 30rpx}.wxlogin.data-v-7210d380{background-color:#04be02}.qqlogin.data-v-7210d380{background-color:#24c9fd}.alipaylogin .iconfont.data-v-7210d380{font-size:90rpx;line-height:56rpx}.applelogin.data-v-7210d380{background-color:#000}.applelogin .iconfont.data-v-7210d380{color:#fff;font-size:60rpx;line-height:86rpx}page{background-color:#fff}

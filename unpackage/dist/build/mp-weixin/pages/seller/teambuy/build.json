@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "拼团设置",
+  "navigationBarBackgroundColor": "#ededed",
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons"
+  }
+}

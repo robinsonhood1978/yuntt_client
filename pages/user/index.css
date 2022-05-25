@@ -1,0 +1,141 @@
+/**
+ * @link https://www.shopwind.net/
+ * @copyright Copyright (c) 2018 ShopWind Inc. All Rights Reserved.
+ *
+ * This is not free software. Do not use it for commercial purposes. 
+ * If you need commercial operation, please contact us to purchase a license.
+ * @license https://www.shopwind.net/license/
+ * ==========================================================================
+ *
+ * @Id index.css 2019.10.6 $
+ * @author winder
+ */
+
+.portait {
+	background-color: #fc2b34;
+	border: 4rpx #FFFFFF solid;
+	border-radius: 100%;
+	width: 100rpx;
+	height: 100rpx;
+	overflow: hidden;
+}
+
+.portait image {
+	width: 100rpx;
+	height: 100rpx;
+	border-radius: 100%;
+}
+
+.mynavbar {
+	z-index: 102;
+	background-color: #fc2b34;
+}
+
+.mynavbar .portait,
+.mynavbar .portait image {
+	width: 50rpx;
+	height: 50rpx;
+}
+
+.header {
+	position: relative;
+	background-color: #fc2b34;
+	padding-bottom: 60rpx;
+	/* #ifdef APP-PLUS */
+	padding-top: var(--status-bar-height);
+	/* #endif */
+	overflow: hidden;
+}
+
+.header .hbg1,
+.header .hbg2 {
+	position: absolute;
+	z-index: 10;
+	background-image: linear-gradient(to right, #ff9c45, #fc2b34);
+	width: 600rpx;
+	height: 600rpx;
+	border-radius: 0 0 600rpx 0;
+	margin-top: -44rpx;
+	-webkit-transform: rotate(240deg);
+	-moz-transform: rotate(240deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(Rotation=0.45);
+}
+
+.header .hbg2 {
+	background-image: linear-gradient(to right, #fd0f1b, #fc4437);
+	width: 2000rpx;
+	height: 2000rpx;
+	z-index: 9;
+}
+
+.sign-integral {
+	border-radius: 60rpx 0px 0 60rpx;
+	padding: 12rpx 10rpx 10rpx 30rpx;
+	background-color: #FF9801;
+	margin-right: -20rpx;
+}
+
+.remind {
+	position: relative;
+	z-index: 11;
+	background-color: #280395;
+	margin-top: -60rpx;
+	overflow: hidden;
+}
+
+.remind .rbg1,
+.remind .rbg2 {
+	position: absolute;
+	z-index: 13;
+	background-image: linear-gradient(to right, #2f01b9, #280395);
+	width: 500rpx;
+	height: 500rpx;
+	border-radius: 0 0 500rpx 0;
+	margin-top: -380rpx;
+	-webkit-transform: rotate(230deg);
+	-moz-transform: rotate(230deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(Rotation=0.45);
+}
+
+.remind .rbg2 {
+	background-image: linear-gradient(to right, #2f02b6, #220281);
+	width: 560rpx;
+	height: 560rpx;
+	z-index: 12;
+}
+
+.remind .item {
+	width: 33.3333%;
+}
+
+.orders .item {
+	width: 20%;
+	margin-top: 10rpx;
+}
+
+.orders .item .badge {
+	border: 2rpx #fd4609 solid;
+	border-radius: 50%;
+	top: -4rpx;
+	right: 24rpx;
+	padding: 4rpx 4rpx;
+	min-width: 26rpx;
+	line-height: 26rpx;
+	color: #fc2b34;
+	background-color: #FFFFFF;
+	font-size: 20rpx;
+}
+
+.orders .icon {
+	color: #fd4609;
+	font-size: 50rpx;
+}
+
+.tools .item {
+	width: 25%;
+}
+
+.tools .icon {
+	font-size: 56rpx;
+	color: #555555;
+}

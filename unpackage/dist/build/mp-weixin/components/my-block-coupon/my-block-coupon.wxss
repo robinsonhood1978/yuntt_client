@@ -1,0 +1,1 @@
+.gallery{padding-top:var(--space);padding-bottom:var(--space);background:var(--background)}.gallery .wraper .item{width:calc(100% - 40rpx);border-radius:16rpx;background-color:var(--bgcolor);color:var(--txtcolor)}.gallery .wraper .item .rp{border-left:2rpx #fc2b34 dashed;border-left-color:var(--txtcolor);height:100rpx;line-height:100rpx}

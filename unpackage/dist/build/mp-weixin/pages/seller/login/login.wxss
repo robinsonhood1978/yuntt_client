@@ -1,0 +1,4 @@
+.logo.data-v-58fe4b42{width:160rpx;height:160rpx;margin:0 auto;border-radius:30rpx}.form.data-v-58fe4b42{padding:40rpx 60rpx 60rpx 60rpx}.form .title.data-v-58fe4b42{font-size:50rpx;font-weight:500}.form .item.data-v-58fe4b42{margin-top:24rpx;border-bottom:1rpx #dedede solid}.form .item input.data-v-58fe4b42,
+.form .item .placeholder.data-v-58fe4b42{font-size:36rpx}.form .item .placeholder.data-v-58fe4b42{color:#b4b4b4}.wxlogin.data-v-58fe4b42,
+.qqlogin.data-v-58fe4b42,
+.applelogin.data-v-58fe4b42{width:90rpx;height:90rpx;line-height:90rpx;border-radius:50%;margin:0 30rpx}.wxlogin.data-v-58fe4b42{background-color:#04be02}.qqlogin.data-v-58fe4b42{background-color:#24c9fd}.alipaylogin .iconfont.data-v-58fe4b42{font-size:90rpx;line-height:56rpx}.applelogin.data-v-58fe4b42{background-color:#000}.applelogin .iconfont.data-v-58fe4b42{color:#fff;font-size:60rpx;line-height:86rpx}page{background-color:#fff}

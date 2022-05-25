@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "团长中心",
+  "navigationBarBackgroundColor": "#fc2b34",
+  "navigationBarTextStyle": "white",
+  "backgroundColor": "#fc2b34",
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "my-popup-share": "/components/my-popup-share/my-popup-share"
+  }
+}

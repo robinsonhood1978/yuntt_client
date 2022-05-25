@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "秒杀频道",
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "my-countdown": "/components/my-countdown/my-countdown",
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "分销商品",
+  "navigationBarBackgroundColor": "#ededed",
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "my-popup-share": "/components/my-popup-share/my-popup-share"
+  }
+}

@@ -1,0 +1,34 @@
+/**
+ * @link https://www.shopwind.net/
+ * @copyright Copyright (c) 2018 ShopWind Inc. All Rights Reserved.
+ *
+ * This is not free software. Do not use it for commercial purposes. 
+ * If you need commercial operation, please contact us to purchase a license.
+ * @license https://www.shopwind.net/license/
+ * ==========================================================================
+ *
+ * @Id index.css 2019.10.22 $
+ * @author winder
+ */
+
+.integral {
+	background-image: linear-gradient(to right, #ffc619, #e5ac39);
+}
+.integral .amount {
+	font-size: 80rpx;
+	padding-top: 30rpx;
+}
+
+.tools .iconfont {
+	font-size: 80rpx;
+}
+
+.buttons {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #F1F1F1;
+}
+.fixed-space {
+	height: 130rpx;
+}

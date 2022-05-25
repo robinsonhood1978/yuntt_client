@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "充值",
+  "navigationBarBackgroundColor": "#ededed",
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "my-popup-payment": "/components/my-popup-payment/my-popup-payment"
+  }
+}

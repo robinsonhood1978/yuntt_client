@@ -1,0 +1,22 @@
+{
+  "navigationBarTitleText": "ShopWind多商户",
+  "navigationBarBackgroundColor": "#fc2b34",
+  "navigationBarTextStyle": "white",
+  "backgroundColor": "#fc2b34",
+  "usingComponents": {
+    "my-block-searchbox": "/components/my-block-searchbox/my-block-searchbox",
+    "my-block-category": "/components/my-block-category/my-block-category",
+    "my-block-swiper": "/components/my-block-swiper/my-block-swiper",
+    "my-block-mainnav": "/components/my-block-mainnav/my-block-mainnav",
+    "my-block-titlebar": "/components/my-block-titlebar/my-block-titlebar",
+    "my-block-imagead": "/components/my-block-imagead/my-block-imagead",
+    "my-block-goodslist": "/components/my-block-goodslist/my-block-goodslist",
+    "my-block-coupon": "/components/my-block-coupon/my-block-coupon",
+    "my-block-limitbuy": "/components/my-block-limitbuy/my-block-limitbuy",
+    "my-block-teambuy": "/components/my-block-teambuy/my-block-teambuy",
+    "my-block-notice": "/components/my-block-notice/my-block-notice",
+    "my-block-textbox": "/components/my-block-textbox/my-block-textbox",
+    "my-block-blank": "/components/my-block-blank/my-block-blank",
+    "my-block-horzline": "/components/my-block-horzline/my-block-horzline"
+  }
+}

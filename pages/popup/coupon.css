@@ -1,0 +1,48 @@
+/**
+ * @link https://www.shopwind.net/
+ * @copyright Copyright (c) 2018 ShopWind Inc. All Rights Reserved.
+ *
+ * This is not free software. Do not use it for commercial purposes. 
+ * If you need commercial operation, please contact us to purchase a license.
+ * @license https://www.shopwind.net/license/
+ * ==========================================================================
+ *
+ * @Id coupon.css 2019.10.16 $
+ * @author winder
+ */
+
+.mask {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	/* #ifndef APP-NVUE */
+	display: flex;
+	/* #endif */
+	justify-content: center;
+	align-items: center;
+	background: transparent;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: 9;
+}
+
+.wraper {
+	position: fixed;
+	bottom: 0rpx;
+	left: 0;
+	width: 100%;
+	height: 1000rpx;
+	z-index: 10;
+}
+
+.wraper .item {
+	background-image: linear-gradient(to right, #ffefe9, #fff5f2);
+	border-radius: 16rpx;
+}
+
+.wraper .receive {
+	margin: 20rpx;
+	padding-top: 40rpx;
+	border-left: 2rpx #ffd6cb dashed;
+}

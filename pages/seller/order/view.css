@@ -1,0 +1,23 @@
+/**
+ * @link https://www.shopwind.net/
+ * @copyright Copyright (c) 2018 ShopWind Inc. All Rights Reserved.
+ *
+ * This is not free software. Do not use it for commercial purposes. 
+ * If you need commercial operation, please contact us to purchase a license.
+ * @license https://www.shopwind.net/license/
+ * ==========================================================================
+ *
+ * @Id view.css 2019.10.20 $
+ * @author winder
+ */
+
+.order-status {
+	background-color: #fc2b34;
+	height: 260rpx;
+	font-size: 36rpx;
+}
+
+.order-detail .item image {
+	width: 140rpx;
+	height: 140rpx;
+}

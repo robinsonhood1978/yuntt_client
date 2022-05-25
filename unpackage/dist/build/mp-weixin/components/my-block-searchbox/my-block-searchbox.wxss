@@ -1,0 +1,1 @@
+.search-box{border-radius:0;background-color:var(--bgcolor);padding-top:var(--space);padding-bottom:var(--space)}.search-box .input{height:64rpx;line-height:64rpx;overflow:hidden;background-color:var(--boxcolor);color:var(--txtcolor);justify-content:var(--position)}.search-box.round .input{border-radius:80rpx}

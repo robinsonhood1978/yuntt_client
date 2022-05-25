@@ -1,0 +1,2 @@
+.imagead{padding-top:var(--space);padding-bottom:var(--space);background-color:var(--bgcolor)}.imagead .item,
+.imagead .item image{width:100%;display:block}.imagead .round{padding:0 10rpx}.imagead .round image{border-radius:20rpx}.imagead .round .item{padding:0 10rpx}.imagead .col2 .item{width:50%}.imagead .col2 .item:last-child{display:none}.imagead .col3 .item{width:33.333%}

@@ -1,0 +1,316 @@
+/**
+ * @link https://www.shopwind.net/
+ * @copyright Copyright (c) 2018 ShopWind Inc. All Rights Reserved.
+ *
+ * This is not free software. Do not use it for commercial purposes. 
+ * If you need commercial operation, please contact us to purchase a license.
+ * @license https://www.shopwind.net/license/
+ * ==========================================================================
+ *
+ * @Id index.css 2019.10.16 $
+ * @author winder
+ */
+
+/**
+ * 图片轮播
+ */
+
+.swiper .navbar .round {
+	background-color: rgba(0, 0, 0, 0.6);
+	border-radius: 70rpx;
+	width: 70rpx;
+	height: 70rpx;
+}
+
+.swiper-box {
+	width: 100%;
+	height: 750rpx;
+	background-color: #fafafa;
+}
+
+.swiper-box .swiper-item {
+	width: 100%;
+	height: 750rpx;
+}
+
+.swiper .videoplay,
+.swiper video {
+	width: 750rpx;
+	height: 750rpx;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+}
+
+.swiper .iconbofang2 {
+	bottom: 70rpx;
+	left: 30rpx;
+	z-index: 99;
+	font-size: 100rpx;
+	z-index: 99;
+	width: 100rpx;
+	height: 100rpx;
+	opacity: 0.7;
+}
+
+.goods-detail .batchbuy {
+	background-image: linear-gradient(to right, #ff570a, #fc2b34);
+}
+
+.goods-detail .batchbuy .item {
+	min-width: 230rpx;
+}
+
+.goods-detail .batchbuy .item-3 {
+	min-width: 270rpx;
+}
+
+.goods-detail .store-type {
+	background-color: #fc2b34;
+	line-height: 36rpx;
+	height: 36rpx;
+	padding: 0rpx 12rpx;
+	border-radius: 16rpx;
+}
+
+.goods-detail .price {
+	width: 65%;
+	height: 110rpx;
+	line-height: 110rpx;
+	background-image: linear-gradient(to right, #f12d8c, #f13257);
+	overflow: hidden;
+}
+
+.goods-detail .promote {
+	width: 35%;
+	height: 110rpx;
+	background-color: #fee2dd;
+	overflow: hidden;
+}
+
+/* 重写倒计时效果 */
+/deep/ .goods-detail .promote .uni-countdown__number {
+	border-radius: 14rpx;
+}
+
+.goods-attrs .share {
+	margin-top: 6rpx;
+}
+
+.goods-params {
+	padding-bottom: 30rpx;
+}
+
+.goods-params>.uni-row {
+	padding-left: 70rpx;
+}
+
+.goods-params .name {
+	margin-left: -70rpx;
+	min-width: 70rpx;
+}
+
+.goods-params .teambuy,
+.goods-params .meal,
+.goods-params .batchbuy {
+	background-color: #f60;
+	border-radius: 30rpx;
+	padding: 2rpx 14rpx 2rpx 14rpx;
+}
+
+.goods-attributes .button {
+	background-color: #fc2b34;
+	border-radius: 60rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+}
+
+.goods-specs .info {
+	padding-left: 180rpx;
+}
+
+.goods-specs .info image {
+	width: 160rpx;
+	height: 160rpx;
+	display: block;
+	background-color: #FFFFFF;
+	margin-left: -180rpx;
+	border-radius: 4rpx;
+	padding: 4rpx;
+}
+
+.goods-specs .item {
+	padding: 6rpx 20rpx;
+	border: #F1F1F1 2rpx solid;
+	background-color: #F1F1F1;
+	border-radius: 8rpx;
+	text-align: center;
+	color: #333333;
+	min-width: 100rpx;
+}
+
+.goods-specs .item.selected {
+	border-color: #fc2b34;
+	background-color: #fff8f8;
+	color: #fc2b34
+}
+
+.goods-specs .item.disabled {
+	border-color: #F1F1F1;
+	background-color: #FFFFFF;
+	color: #DDDDDD;
+}
+
+.goods-specs .item .destroy {
+	text-decoration: line-through;
+}
+
+.goods-specs .popup-quantity .plus {
+	border-radius: 0rpx 8rpx 8rpx 0;
+	font-size: 30rpx;
+}
+
+.goods-specs .popup-quantity .minus {
+	border-radius: 8rpx 0rpx 0rpx 8rpx;
+	font-size: 30rpx;
+}
+
+.goods-specs .popup-quantity text,
+.goods-specs .popup-quantity input {
+	display: block;
+	background-color: #F1F1F1;
+	overflow: hidden;
+	height: 66rpx;
+	line-height: 66rpx;
+}
+
+.goods-specs .popup-quantity input {
+	padding: 0rpx 22rpx;
+	width: 120rpx;
+	background-color: #EEEEEE;
+	margin: 0 2rpx;
+}
+
+.coupons .item {
+	border: #fc2b34 2rpx solid;
+	padding: 3rpx 8rpx;
+	color: #fc2b34;
+	border-radius: 6rpx;
+	word-break: break-all;
+	word-wrap: break-word;
+	white-space: nowrap;
+}
+
+.coupons .receive {
+	background-image: linear-gradient(to right, #f12d8c, #fc2b34);
+	border-radius: 40rpx 0rpx 0 40rpx;
+	margin-right: -20rpx;
+	height: 54rpx;
+	line-height: 54rpx;
+	/* #ifndef H5 */
+	height: 50rpx;
+	line-height: 50rpx;
+	/* #endif */
+	width: 90rpx;
+}
+
+.storeinfo .store_logo image {
+	width: 120rpx;
+	height: 120rpx;
+	border-radius: 100%;
+}
+
+.storeinfo .credit_image {
+	height: 34rpx;
+}
+
+.storeinfo .button {
+	border-radius: 40rpx;
+	background-color: #ffa200;
+	width: 120rpx;
+	height: 50rpx;
+	line-height: 50rpx;
+	padding: 6rpx 20rpx;
+}
+
+.dynamiceval>.uni-flex {
+	width: 33.33333%;
+	text-align: center;
+}
+
+.dynamiceval .equal {
+	color: gray;
+}
+
+.dynamiceval .low {
+	color: #29eaff;
+}
+
+.dynamiceval .high {
+	color: #f50c04;
+}
+
+.dynamiceval .compare {
+	font-size: 22rpx;
+	height: 60rpx;
+	width: 60rpx;
+	border-radius: 100%;
+	padding: 0rpx 6rpx;
+	text-align: center;
+}
+
+.dynamiceval .equal .compare {
+	background-color: #e7e7e7;
+}
+
+.dynamiceval .low .compare {
+	background-color: #e7fbff;
+}
+
+.dynamiceval .high .compare {
+	color: #f50c04;
+	background-color: #fde7e0;
+}
+
+/* 消除描述中图片上下间距 */
+/deep/ .detail-info img {
+	display: block;
+}
+
+/**
+ * 底部购物车按钮
+ */
+.bottom-nav {
+	padding: 10rpx;
+	background: #FCFCFC;
+}
+
+.bottom-nav .labels uni-icons {
+	margin-top: -14rpx;
+}
+
+.bottom-nav .labels text {
+	font-size: 24rpx;
+	margin-top: -14rpx;
+	margin-left: 16rpx;
+	margin-right: 16rpx;
+}
+
+.bottom-nav .buttons .each {
+	padding: 16rpx 0;
+	width: 50%;
+}
+
+.bottom-nav .buttons .lb {
+	background-color: #ffa200;
+	border-radius: 40rpx 0 0 40rpx;
+}
+
+.bottom-nav .buttons .rb {
+	background-image: linear-gradient(to right, #ff570a, #fc2b34);
+	border-radius: 0 40rpx 40rpx 0;
+}
+
+.fixed-space {
+	padding-bottom: 94rpx;
+}

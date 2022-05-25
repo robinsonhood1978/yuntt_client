@@ -1,0 +1,106 @@
+/**
+ * @link https://www.shopwind.net/
+ * @copyright Copyright (c) 2018 ShopWind Inc. All Rights Reserved.
+ *
+ * This is not free software. Do not use it for commercial purposes. 
+ * If you need commercial operation, please contact us to purchase a license.
+ * @license https://www.shopwind.net/license/
+ * ==========================================================================
+ *
+ * @Id list.css 2019.10.26 $
+ * @author winder
+ */
+
+.scroller {
+	width: 180rpx;
+}
+.scroller .item {
+	padding: 24rpx 0;
+}
+.scroller .selected {
+	padding: 20rpx 0;
+	font-size: 32rpx;
+}
+
+/**
+ * 橱窗商品列表
+ */
+.gallery .item {
+	width: 100%;
+	margin-bottom: 30rpx;
+}
+
+.gallery .item:last-child {
+	margin-bottom: 20rpx;
+}
+
+.gallery .item image {
+	width: 180rpx;
+	height: 180rpx;
+	background-color: #f1f1f1;
+	border-radius: 20rpx;
+}
+
+.gallery .item .skill {
+	width: 100rpx;
+	height: 40rpx;
+	line-height: 40rpx;
+	background-image: linear-gradient(to right, #ff9437, #fc2b34);
+	left: 0rpx;
+	top: 0rpx;
+	z-index: 9;
+	border-radius: 20rpx 0 20rpx;
+}
+
+.gallery .item .quantity {
+	width: 50rpx;
+}
+
+.gallery .mybutton {
+	background-image: linear-gradient(to right, #ff9437, #fc2b34);
+	padding: 0rpx;
+	line-height: 60rpx;
+}
+
+.gallery .promote {
+	width: 100%;
+	height: 70rpx;
+}
+
+.gallery .rb {
+	margin-top: -30rpx;
+	padding-top: 30rpx;
+}
+
+.gallery .badge,.limitbuy .badge {
+	background: #f4f400;
+	border-radius: 50%;
+	top: -20rpx;
+	right: 0rpx;
+	padding: 6rpx 8rpx;
+	min-width: 26rpx;
+	line-height: 26rpx;
+	font-size: 20rpx;
+}
+
+.paybill .badge {
+	background-image: linear-gradient(to right, #ff570a, #fc2b34);
+	border-radius: 50%;
+	color: #FFFFFF;
+	top: 4rpx;
+	left: 50rpx;
+	padding: 6rpx 8rpx;
+	min-width: 28rpx;
+	line-height: 28rpx;
+}
+
+.paybill .mybutton {
+	padding-top: 8rpx;
+	padding-bottom: 8rpx;
+	word-break: break-all;
+	min-width: 80%;
+}
+
+.bottom-placeholder {
+	height: 150rpx;
+}

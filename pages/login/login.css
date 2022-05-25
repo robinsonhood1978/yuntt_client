@@ -1,0 +1,75 @@
+/**
+ * @link https://www.shopwind.net/
+ * @copyright Copyright (c) 2018 ShopWind Inc. All Rights Reserved.
+ *
+ * This is not free software. Do not use it for commercial purposes. 
+ * If you need commercial operation, please contact us to purchase a license.
+ * @license https://www.shopwind.net/license/
+ * ==========================================================================
+ *
+ * @Id login.css 2019.10.6 $
+ * @author winder
+ */
+
+.logo {
+	width: 160rpx;
+	height: 160rpx;
+	margin: 0 auto;
+	border-radius: 30rpx;
+}
+
+.form {
+	padding: 40rpx 60rpx 60rpx 60rpx;
+}
+
+.form .title {
+	font-size: 50rpx;
+	font-weight: 500;
+}
+
+.form .item {
+	margin-top: 24rpx;
+	border-bottom: 1rpx #dedede solid;
+}
+
+.form .item input,
+.form .item .placeholder {
+	font-size: 36rpx;
+}
+
+.form .item .placeholder {
+	color: #b4b4b4;
+}
+
+.wxlogin,
+.qqlogin,
+.applelogin {
+	width: 90rpx;
+	height: 90rpx;
+	line-height: 90rpx;
+	border-radius: 50%;
+	margin: 0 30rpx;
+}
+
+.wxlogin {
+	background-color: #04BE02;
+}
+
+.qqlogin {
+	background-color: #24c9fd;
+}
+
+.alipaylogin .iconfont {
+	font-size: 90rpx;
+	line-height: 56rpx;
+}
+
+.applelogin {
+	background-color: #000;
+}
+
+.applelogin .iconfont {
+	color: #FFFFFF;
+	font-size: 60rpx;
+	line-height: 86rpx;
+}

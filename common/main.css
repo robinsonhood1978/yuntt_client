@@ -1,0 +1,476 @@
+/**
+ * @link https://www.shopwind.net/
+ * @copyright Copyright (c) 2018 ShopWind Inc. All Rights Reserved.
+ *
+ * This is not free software. Do not use it for commercial purposes. 
+ * If you need commercial operation, please contact us to purchase a license.
+ * @license https://www.shopwind.net/license/
+ * ==========================================================================
+ *
+ * @Id main.css 2019.9.26 $
+ * @author winder
+ */
+
+/**
+ * 窗口背景色
+ */
+page {
+	background-color: #ededed;
+	max-width: 1500rpx;
+	margin: 0 auto;
+}
+
+radio,
+switch {
+	transform: scale(0.9);
+}
+
+/**
+ * 通用全局CSS
+ */
+.bgf {
+	background-color: #FFFFFF;
+}
+
+.bgp {
+	background-color: #ededed;
+}
+
+.f-12 {
+	font-size: 24rpx;
+}
+
+.f-13 {
+	font-size: 26rpx;
+}
+
+.f-14 {
+	font-size: 28rpx;
+}
+
+.f-15 {
+	font-size: 30rpx;
+}
+
+.f-16 {
+	font-size: 32rpx;
+}
+
+.f-17 {
+	font-size: 34rpx;
+}
+
+.f-18 {
+	font-size: 36rpx;
+}
+
+.f-19 {
+	font-size: 38rpx;
+}
+
+.f-20 {
+	font-size: 40rpx;
+}
+
+.f-25 {
+	font-size: 50rpx;
+}
+
+.f-white {
+	color: white;
+}
+
+.f-red {
+	color: #fc2b34;
+}
+
+.f-gray {
+	color: #999999;
+}
+
+.f-blue {
+	color: #0A98D5;
+}
+
+.f-green {
+	color: #00cc00;
+}
+
+.f-yellow {
+	color: #ffce59;
+}
+
+.f-c60 {
+	color: #FF6600;
+}
+
+.f-c55 {
+	color: #555555;
+}
+
+.ml10 {
+	margin-left: 20rpx;
+}
+
+.mr10 {
+	margin-right: 20rpx;
+}
+
+.mt10 {
+	margin-top: 20rpx;
+}
+
+.mb10 {
+	margin-bottom: 20rpx;
+}
+
+.pl10 {
+	padding-left: 20rpx;
+}
+
+.pr10 {
+	padding-right: 20rpx;
+}
+
+.pb10 {
+	padding-bottom: 20rpx;
+}
+
+.pt10 {
+	padding-top: 20rpx;
+}
+
+.pd10 {
+	padding: 20rpx;
+}
+
+.pt5 {
+	padding-top: 10rpx;
+}
+
+.pb5 {
+	padding-bottom: 10rpx;
+}
+
+.pl5 {
+	padding-left: 10rpx;
+}
+
+.pr5 {
+	padding-right: 10rpx;
+}
+
+.pd5 {
+	padding: 10rpx;
+}
+
+.mg5 {
+	margin: 10rpx;
+}
+
+.ml5 {
+	margin-left: 10rpx;
+}
+
+.mt5 {
+	margin-top: 10rpx;
+}
+
+.mr5 {
+	margin-right: 10rpx;
+}
+
+.mb5 {
+	margin-bottom: 10rpx;
+}
+
+.bt {
+	border-top: 2rpx #F1F1F1 solid;
+}
+
+.bb {
+	border-bottom: 2rpx #F1F1F1 solid;
+}
+
+.l-h20 {
+	line-height: 40rpx;
+}
+.block {
+	display: block;
+}
+.absolute {
+	position: absolute;
+}
+
+.relative {
+	position: relative;
+	z-index: 10;
+	/* 至少10起步*/
+}
+
+.del {
+	text-decoration: line-through
+}
+
+.clearfix:after {
+	content: '\20';
+	display: block;
+	overflow: hidden;
+	height: 0;
+	clear: both;
+}
+
+.empty-icons {
+	font-size: 160rpx;
+	padding-top: 250rpx;
+	color: #CCCCCC;
+}
+
+.morenavh5 {
+	position: fixed;
+	width: 40rpx;
+	height: 180rpx;
+	left: 0;
+	bottom: 270rpx;
+	z-index: 99;
+}
+
+.morenavh5 .absolute {
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 0rpx 10rpx 10rpx 0;
+	line-height: 36rpx;
+}
+
+/**
+ * 圆形边框
+ */
+.round-edge {
+	border-radius: 20rpx;
+}
+
+/**
+ * 弹窗顶部圆角
+ */
+.top-round-edge {
+	border-radius: 20rpx 20rpx 0 0;
+}
+
+.navbar {
+	width: 100%;
+	/* uniapp 导航栏的高度固定44px */
+	height: 88rpx;
+	padding-top: var(--status-bar-height);
+}
+
+.status_bar {
+	height: var(--status-bar-height);
+	width: 100%;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+/**
+ * 上边阴影
+ */
+.box-shadow-top {
+	box-shadow: 0px 0px 10px #f3f3f3;
+}
+
+.mybutton {
+	background-image: linear-gradient(to right, #ff570a, #fc2b34);
+	padding-top: 20rpx;
+	padding-bottom: 20rpx;
+	border-radius: 60rpx;
+	min-width: 140rpx;
+	text-align: center;
+}
+
+.mybutton.outside {
+	background: none;
+	border: 2rpx #fc2b34 solid;
+}
+
+.pricenotice image {
+	width: 100%;
+}
+
+/**
+ * 橱窗商品列表，全局通用，两列布局
+ */
+.gallery .item {
+	width: 50%;
+}
+
+.gallery .item image {
+	width: 100%;
+	height: 350rpx;
+	border-radius: 20rpx 20rpx 0 0;
+	background-color: #f1f1f1;
+}
+
+.gallery .line-clamp-2 {
+	min-height: 80rpx;
+}
+
+/**
+ * 垂直居中
+ */
+.flex-middle {
+	-webkit-flex: 1;
+	flex: 1;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+/**
+ * 横向居中
+ */
+.flex-center {
+	-webkit-flex: 1;
+	flex: 1;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+
+/**
+ * 靠右
+ */
+.flex-end {
+	justify-content: flex-end;
+}
+
+/**
+ * 换行
+ */
+.flex-wrap {
+	webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+/**
+ * 自动占满余量
+ */
+.width-surplus {
+	-webkit-flex: 1;
+	flex: 1;
+}
+
+/**
+ * 两端对齐
+ */
+.width-between {
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+}
+
+.line-clamp-2 {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	justify-content: space-between;
+	overflow: hidden;
+	/* 控制英文字符不换行*/
+	word-break: break-all;
+	white-space: normal;
+}
+
+.line-clamp-1 {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+	justify-content: space-between;
+	overflow: hidden;
+	/* 控制英文字符不换行*/
+	word-break: break-all;
+	white-space: normal;
+}
+
+/**
+ * 底部占位，抵消底部导航的高度
+ */
+.bottom-placeholder {
+	width: 100%;
+	height: calc(var(--window-bottom) + 0rpx);
+}
+
+.fixed-bottom {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: calc(var(--window-bottom) + 0rpx);
+	/* 低于fixed-top  且低于右上角快捷导航的99 */
+	z-index: 97;
+}
+
+/**
+ * 底部浮动占位
+ * 主要是针对下拉刷新底部产生的空位与背景不符，通过这个来处理
+ */
+.fixed-bottom-placeholder {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 500rpx;
+	background-color: #ededed;
+	z-index: 9;
+}
+
+.fixed-top {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: calc(var(--window-top) + 0rpx);
+	/* 高于fixed-bottom, 低于右上角快捷导航的99 */
+	z-index: 98;
+}
+
+/* 支付工具相关 */
+.iconfont.alipay::after,
+.iconfont.alipay_app::after,
+.iconfont.alipay_wap::after {
+	content: '\e65f';
+	color: #1677ff;
+}
+
+.iconfont.wxh5pay::after,
+.iconfont.wxpay::after,
+.iconfont.wxmppay::after,
+.iconfont.wxapppay::after {
+	content: '\e634';
+	color: #04BE02;
+}
+
+.iconfont.ICBC::after {
+	content: '\e697';
+	color: #ca0e18;
+}
+
+.iconfont.CCB::after {
+	content: '\e691';
+	color: #0066b3;
+}
+
+.iconfont.ABC::after {
+	content: '\e698';
+	color: #319e8d;
+}
+
+.iconfont.BOC::after {
+	content: '\e69b';
+	color: #a71e32;
+}
+
+.iconfont.CMB::after {
+	content: '\e68c';
+	color: #b1120d;
+}
+
+.iconfont.COMM::after {
+	content: '\e687';
+	color: #00377a;
+}

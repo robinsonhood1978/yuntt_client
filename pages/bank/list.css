@@ -1,0 +1,52 @@
+/**
+ * @link https://www.shopwind.net/
+ * @copyright Copyright (c) 2018 ShopWind Inc. All Rights Reserved.
+ *
+ * This is not free software. Do not use it for commercial purposes. 
+ * If you need commercial operation, please contact us to purchase a license.
+ * @license https://www.shopwind.net/license/
+ * ==========================================================================
+ *
+ * @Id list.css 2019.10.16 $
+ * @author winder
+ */
+
+.item {
+	position: relative;
+	background-image: linear-gradient(to right, #dcb36b, #d68e3b);
+	overflow: hidden;
+}
+.item .logo {
+	width: 80rpx;
+	height: 80rpx;
+	background-color: #FFFFFF;
+	border-radius: 100%;
+	line-height: 80rpx;
+}
+.item .logo text::after {
+	font-size: 60rpx;
+}
+.item-ICBC {
+	background-image: linear-gradient(to right, #ca0e18, #f10f1e);
+}
+.item-ABC {
+	background-image: linear-gradient(to right, #3dc5af, #319e8d);
+}
+.item-CCB{
+	background-image: linear-gradient(to right, #007bd3, #0066b3);
+}
+
+.item .big-icon {
+	position: absolute;
+	right: 0;
+	bottom: -300rpx;
+}
+.item .big-icon::after {
+	font-size: 350rpx;
+	opacity: 0.1;
+	color: #FFFFFF;
+}
+
+.bottom-placeholder {
+	height: 140rpx;
+}

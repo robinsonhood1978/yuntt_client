@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "拼团详情",
+  "usingComponents": {
+    "my-swiper-dot": "/components/my-swiper-dot/my-swiper-dot",
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "my-countdown": "/components/my-countdown/my-countdown",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "my-popup-coupons": "/components/my-popup-coupons/my-popup-coupons",
+    "my-popup-share": "/components/my-popup-share/my-popup-share",
+    "mp-html": "/components/mp-html/mp-html"
+  }
+}

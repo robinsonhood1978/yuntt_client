@@ -1,0 +1,77 @@
+/**
+ * @link https://www.shopwind.net/
+ * @copyright Copyright (c) 2018 ShopWind Inc. All Rights Reserved.
+ *
+ * This is not free software. Do not use it for commercial purposes. 
+ * If you need commercial operation, please contact us to purchase a license.
+ * @license https://www.shopwind.net/license/
+ * ==========================================================================
+ *
+ * @Id team.css 2019.10.18 $
+ * @author winder
+ */
+
+.teambuylog .portrait image {
+	width: 70rpx;
+	height: 70rpx;
+	border-radius: 100%;
+}
+
+.teambuylog .portrait text {
+	width: 160rpx;
+}
+
+.teambuylog .mybutton {
+	padding: 4rpx 0;
+	min-width: 120rpx;
+}
+
+/deep/ .teambuylog .uni-countdown__number,
+/deep/ .teambuylog .uni-countdown__splitor {
+	margin: 0;
+	padding: 0;
+}
+
+/deep/ .teambuylog .uni-countdown__number {
+	width: 34rpx;
+	font-size: 26rpx;
+}
+
+.teamrule .box-flex {
+	width: 25%;
+	z-index: 9;
+}
+
+.teamrule .box-flex .number {
+	width: 40rpx;
+	height: 40rpx;
+	margin-right: 4rpx;
+	border-radius: 100%;
+	border: 2rpx solid #e7e8ef;
+	display: block;
+	line-height: 40rpx;
+	margin: 0 auto;
+}
+
+.teamrule .box-flex .line {
+	border-top: 2rpx solid #e7e8ef;
+	top: 20rpx;
+	left: 50%;
+	margin-left: 22rpx;
+	width: 75%;
+}
+
+.bottom-nav .buttons .each {
+	padding: 10rpx;
+}
+
+.bottom-nav .buttons .each,
+.bottom-nav .buttons .each text {
+	line-height: 33rpx;
+}
+
+.bottom-nav .buttons .mybutton {
+	padding: 16rpx 0;
+	width: 100%;
+	border-radius: 40rpx;
+}

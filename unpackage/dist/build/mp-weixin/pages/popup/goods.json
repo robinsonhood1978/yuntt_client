@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "选择商品",
+  "navigationBarBackgroundColor": "#ededed",
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

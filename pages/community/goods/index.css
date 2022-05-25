@@ -1,0 +1,174 @@
+/**
+ * @link https://www.shopwind.net/
+ * @copyright Copyright (c) 2018 ShopWind Inc. All Rights Reserved.
+ *
+ * This is not free software. Do not use it for commercial purposes. 
+ * If you need commercial operation, please contact us to purchase a license.
+ * @license https://www.shopwind.net/license/
+ * ==========================================================================
+ *
+ * @Id index.css 2019.10.16 $
+ * @author winder
+ */
+
+/**
+ * 图片轮播
+ */
+
+.swiper .navbar .round {
+	background-color: rgba(0, 0, 0, 0.6);
+	border-radius: 70rpx;
+	width: 70rpx;
+	height: 70rpx;
+}
+
+.swiper-box {
+	width: 100%;
+	height: 750rpx;
+	background-color: #fafafa;
+}
+
+.swiper-box .swiper-item {
+	width: 100%;
+	height: 750rpx;
+}
+
+.swiper .videoplay,
+.swiper video {
+	width: 750rpx;
+	height: 750rpx;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+}
+
+.swiper .iconbofang2 {
+	bottom: 70rpx;
+	left: 30rpx;
+	z-index: 99;
+	font-size: 100rpx;
+	z-index: 99;
+	width: 100rpx;
+	height: 100rpx;
+	opacity: 0.7;
+}
+
+.goods-detail .store-type {
+	background-color: #fc2b34;
+	line-height: 36rpx;
+	height: 36rpx;
+	padding: 0rpx 12rpx;
+	border-radius: 16rpx;
+}
+
+.goods-detail .price {
+	width: 65%;
+	height: 110rpx;
+	line-height: 110rpx;
+	background-image: linear-gradient(to right, #f12d8c, #f13257);
+	overflow: hidden;
+}
+
+.goods-detail .promote {
+	width: 35%;
+	height: 110rpx;
+	background-color: #fee2dd;
+	overflow: hidden;
+}
+
+/* 重写倒计时效果 */
+/deep/ .goods-detail .promote .uni-countdown__number {
+	border-radius: 14rpx;
+}
+
+.goods-attrs .share {
+	margin-top: 6rpx;
+}
+
+.goods-params {
+	padding-bottom: 30rpx;
+}
+
+.goods-params>.uni-row {
+	padding-left: 70rpx;
+}
+
+.goods-params .name {
+	margin-left: -70rpx;
+	min-width: 70rpx;
+}
+
+.goods-attributes .button {
+	background-color: #fc2b34;
+	border-radius: 60rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+}
+
+.coupons .item {
+	border: #fc2b34 2rpx solid;
+	padding: 3rpx 8rpx;
+	color: #fc2b34;
+	border-radius: 6rpx;
+	word-break: break-all;
+	word-wrap: break-word;
+	white-space: nowrap;
+}
+
+.coupons .receive {
+	background-image: linear-gradient(to right, #f12d8c, #fc2b34);
+	border-radius: 40rpx 0rpx 0 40rpx;
+	margin-right: -20rpx;
+	height: 54rpx;
+	line-height: 54rpx;
+	/* #ifndef H5 */
+	height: 50rpx;
+	line-height: 50rpx;
+	/* #endif */
+	width: 90rpx;
+}
+
+/* 消除描述中图片上下间距 */
+/deep/ .detail-info img {
+	display: block;
+}
+
+/**
+ * 底部购物车按钮
+ */
+.paybill {
+	background-color: #fefefe;
+}
+
+.paybill .badge {
+	background-image: linear-gradient(to right, #ff570a, #fc2b34);
+	border-radius: 50%;
+	color: #FFFFFF;
+	top: 4rpx;
+	left: 50rpx;
+	padding: 6rpx 8rpx;
+	min-width: 28rpx;
+	line-height: 28rpx;
+}
+
+.paybill .mybutton {
+	padding: 4rpx 30rpx;
+	line-height: 30rpx;
+	word-break: break-all;
+}
+
+.paybill .mybutton.lb {
+	background: #ffa200;
+	border-radius: 60rpx 0 0 60rpx;
+	width: 150rpx;
+}
+
+.paybill .mybutton.rb {
+	background-image: linear-gradient(to right, #ff570a, #fc2b34);
+	border-radius: 0 60rpx 60rpx 0;
+	width: 300rpx;
+}
+
+.bottom-placeholder {
+	height: 150rpx;
+}

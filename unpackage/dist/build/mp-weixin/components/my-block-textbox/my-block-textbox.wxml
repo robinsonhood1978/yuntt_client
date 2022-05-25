@@ -1,0 +1,1 @@
+<view><view class="textbox" style="{{'--bgcolor:'+(options.bgcolor)+';'+('--txtcolor:'+(options.txtcolor||'#333333')+';')+('--fontsize:'+(options.fontsize+'px')+';')+('--txtbold:'+(options.txtbold==1?'bold':'normal')+';')+('--space:'+(options.space+'px')+';')}}"><view class="uni-center pd10"><text class="inline-block f-14">{{options.label}}</text></view></view></view>

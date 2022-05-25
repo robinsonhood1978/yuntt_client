@@ -1,0 +1,182 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/index",
+    "pages/accord/index",
+    "pages/cart/index",
+    "pages/setting/index",
+    "pages/setting/phone",
+    "pages/setting/profile",
+    "pages/goods/index",
+    "pages/goods/team",
+    "pages/search/index",
+    "pages/search/goods",
+    "pages/login/login",
+    "pages/login/weixin",
+    "pages/login/callback",
+    "pages/store/index",
+    "pages/store/apply",
+    "pages/order/normal",
+    "pages/cashier/pay",
+    "pages/cashier/wxpay",
+    "pages/address/list",
+    "pages/address/build",
+    "pages/order/address",
+    "pages/order/logistic",
+    "pages/refund/logs",
+    "pages/category/list",
+    "pages/bank/list",
+    "pages/bank/build",
+    "pages/limitbuy/list",
+    "pages/teambuy/list",
+    "pages/meal/list",
+    "pages/integral/goods",
+    "pages/popup/coupon",
+    "pages/popup/goods",
+    "pages/article/view",
+    "pages/article/webview",
+    "pages/message/message"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/community",
+      "pages": [
+        "index/index",
+        "goods/index",
+        "cart/index",
+        "category/list"
+      ]
+    },
+    {
+      "root": "pages/deposit",
+      "pages": [
+        "index/index",
+        "setting/setting",
+        "trade/trade",
+        "record/record",
+        "frozen/frozen",
+        "drawal/drawal",
+        "recharge/recharge"
+      ]
+    },
+    {
+      "root": "pages/my",
+      "pages": [
+        "order/list",
+        "order/view",
+        "order/evaluation",
+        "refund/list",
+        "refund/build",
+        "refund/view",
+        "coupon/list",
+        "cashcard/list",
+        "cashcard/build",
+        "favorite/goods",
+        "favorite/store",
+        "footmark/goods",
+        "integral/index",
+        "integral/list"
+      ]
+    },
+    {
+      "root": "pages/seller",
+      "pages": [
+        "index/index",
+        "login/login",
+        "order/list",
+        "order/view",
+        "refund/list",
+        "refund/view",
+        "refund/refuse",
+        "goods/list",
+        "goods/build",
+        "goods/spec",
+        "store/setting",
+        "store/location",
+        "store/build",
+        "module/index",
+        "coupon/list",
+        "coupon/build",
+        "limitbuy/list",
+        "limitbuy/build",
+        "fullprefer/build",
+        "fullfree/build",
+        "teambuy/list",
+        "teambuy/build",
+        "distribute/list",
+        "distribute/build"
+      ]
+    },
+    {
+      "root": "pages/guider",
+      "pages": [
+        "index/index",
+        "shop/list",
+        "shop/apply",
+        "shop/setting",
+        "order/list"
+      ]
+    },
+    {
+      "root": "pages/distribute",
+      "pages": [
+        "index/index",
+        "apply/apply",
+        "team/list",
+        "goods/list",
+        "order/list"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#F4F4F4",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "ShopWind多用户",
+    "background": "#ededed",
+    "backgroundColor": "#ededed",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#fc2b34",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/home.png",
+        "selectedIconPath": "static/images/home-hover.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/category/list",
+        "iconPath": "static/images/gcategory.png",
+        "selectedIconPath": "static/images/gcategory-hover.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/cart/index",
+        "iconPath": "static/images/cart.png",
+        "selectedIconPath": "static/images/cart-hover.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "iconPath": "static/images/my.png",
+        "selectedIconPath": "static/images/my-hover.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取附近门店信息"
+    }
+  },
+  "uniStatistics": {
+    "enable": false
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

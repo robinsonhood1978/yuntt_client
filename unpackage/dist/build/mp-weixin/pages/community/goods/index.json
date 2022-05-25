@@ -1,0 +1,17 @@
+{
+  "navigationBarTitleText": "商品详情",
+  "usingComponents": {
+    "my-swiper-dot": "/components/my-swiper-dot/my-swiper-dot",
+    "my-countdown": "/components/my-countdown/my-countdown",
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "my-popup-coupons": "/components/my-popup-coupons/my-popup-coupons",
+    "my-popup-integral": "/components/my-popup-integral/my-popup-integral",
+    "my-popup-fullprefer": "/components/my-popup-fullprefer/my-popup-fullprefer",
+    "my-popup-share": "/components/my-popup-share/my-popup-share",
+    "my-popup-attributes": "/components/my-popup-attributes/my-popup-attributes",
+    "mp-html": "/components/mp-html/mp-html",
+    "my-popup-specs": "/components/my-popup-specs/my-popup-specs",
+    "my-popup-shopcart": "/components/my-popup-shopcart/my-popup-shopcart"
+  }
+}

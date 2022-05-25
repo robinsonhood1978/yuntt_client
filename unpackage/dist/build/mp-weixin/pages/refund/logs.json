@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "协商记录",
+  "navigationBarBackgroundColor": "#ededed",
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

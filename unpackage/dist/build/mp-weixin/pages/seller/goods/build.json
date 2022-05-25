@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "商品发布",
+  "navigationBarBackgroundColor": "#ededed",
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "uni-data-picker": "/components/uni-data-picker/uni-data-picker"
+  }
+}

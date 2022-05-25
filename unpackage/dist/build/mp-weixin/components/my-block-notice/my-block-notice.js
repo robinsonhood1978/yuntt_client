@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/my-block-notice/my-block-notice"],{"713b":function(t,n,e){},"844e":function(t,n,e){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var i=o(e("d85c"));function o(t){return t&&t.__esModule?t:{default:t}}var u={name:"MyBlock",props:{options:{type:Object/String,default:function(){return{}}}},data:function(){return{gallery:{}}},created:function(){this.init()},methods:{init:function(){var t=this,n={page_size:t.options.quantity};"category"==t.options.source?n.cate_id=t.options.cate_id:"choice"==t.options.source&&(n.items=t.options.items,n.items&&(n.page_size=n.items.split(",").length)),i.default.request("article/list",n,(function(n){0==n.code&&(t.gallery=n.data.list)}))}}};n.default=u},"8bbe":function(t,n,e){"use strict";e.d(n,"b",(function(){return o})),e.d(n,"c",(function(){return u})),e.d(n,"a",(function(){return i}));var i={uniIcons:function(){return Promise.all([e.e("common/vendor"),e.e("components/uni-icons/uni-icons")]).then(e.bind(null,"db11"))}},o=function(){var t=this,n=t.$createElement;t._self._c},u=[]},a8e1:function(t,n,e){"use strict";e.r(n);var i=e("8bbe"),o=e("da8d");for(var u in o)"default"!==u&&function(t){e.d(n,t,(function(){return o[t]}))}(u);e("ab9d");var c,r=e("f0c5"),a=Object(r["a"])(o["default"],i["b"],i["c"],!1,null,null,null,!1,i["a"],c);n["default"]=a.exports},ab9d:function(t,n,e){"use strict";var i=e("713b"),o=e.n(i);o.a},da8d:function(t,n,e){"use strict";e.r(n);var i=e("844e"),o=e.n(i);for(var u in i)"default"!==u&&function(t){e.d(n,t,(function(){return i[t]}))}(u);n["default"]=o.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/my-block-notice/my-block-notice-create-component',
+    {
+        'components/my-block-notice/my-block-notice-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("a8e1"))
+        })
+    },
+    [['components/my-block-notice/my-block-notice-create-component']]
+]);
